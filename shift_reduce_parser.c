@@ -108,15 +108,16 @@ int main() {
 
     //grammar
     /*
-        S -> S + S | S * S | a
+        S -> aSa | bSb | c
     */
 
     n = 1;
     prodns[0].head = 'S';
     prodns[0].tCount = 3;
-    strcpy(prodns[0].tails[0].tail, "S+S");
-    strcpy(prodns[0].tails[1].tail, "S*S");
-    strcpy(prodns[0].tails[2].tail, "a");
+    strcpy(prodns[0].tails[0].tail, "aSa");
+    strcpy(prodns[0].tails[1].tail, "bSb");
+    strcpy(prodns[0].tails[2].tail, "c");
+
 
     printf("Enter the input: ");
     char input[100];
