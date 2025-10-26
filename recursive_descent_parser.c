@@ -33,7 +33,7 @@ int EP(char** input) {
             if (EP(input))
                 return 1;
     }
-    *input = temp;
+    *input = temp; //reset the input if +TE' was not success
     return 1;
 }
 
