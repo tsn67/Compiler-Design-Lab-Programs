@@ -1,17 +1,16 @@
 int main() {
-    while(1) {
-        int a, sdf, sdf23;
-        abc = 23 + 2323 / (2 + 2 * (4 + 5));
-    }
-
     int a, b, c;
-    float abcdsdfdsfsdfdfsdfsdfdsfsd1212121;
-    abc = 2 + 21323 / (id * figure);
-    sdfsdf12 = 2 * f - gdf + 10000232323232332232323;
-    if (23+23 > 10 + 2323 <= 1212) {
-        int a, b, c;
-    } else {
-        abc = 10 - 23 + abc;
+    abc = 2 * 3 + (2 - 1);
+
+    while (1+2 == 3) {
+        abc = 2 - 1;
+        float abc, def23;
     }
 
+    if (12 >= 12 + 1) {
+        sdfa12 = 12;
+        while (2) {
+            int a, b, c;
+        }
+    }
 }
