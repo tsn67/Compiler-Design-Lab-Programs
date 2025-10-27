@@ -1,5 +1,5 @@
 /*
-    any string using 'a' and 'b' with sufix 'aaaaa' (5 'a's)
+    any string using 'a' and 'b' with prefix 'aaaaa' (5 'a's)
 */
 
 
