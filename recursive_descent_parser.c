@@ -33,7 +33,7 @@ int EP(char** input) {
             if (EP(input))
                 return 1;
     }
-    *input = temp; // reset if + T E' parsing fails.
+    *input = temp; // reset if +TE' parsing fails.
     return 1;
 }
 
