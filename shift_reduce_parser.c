@@ -111,12 +111,24 @@ int main() {
         S -> aSa | bSb | c
     */
 
-    n = 1;
+    n = 3;
     prodns[0].head = 'S';
     prodns[0].tCount = 3;
-    strcpy(prodns[0].tails[0].tail, "aSa");
-    strcpy(prodns[0].tails[1].tail, "bSb");
-    strcpy(prodns[0].tails[2].tail, "c");
+    strcpy(prodns[0].tails[0].tail, "S+T");
+    strcpy(prodns[0].tails[1].tail, "S-T");
+    strcpy(prodns[0].tails[2].tail, "T");
+
+
+    prodns[1].head = 'T';
+    prodns[1].tCount = 3;
+    strcpy(prodns[1].tails[0].tail, "T*F");
+    strcpy(prodns[1].tails[1].tail, "T/F");
+    strcpy(prodns[1].tails[2].tail, "F");
+
+    prodns[2].head = 'F';
+    prodns[2].tCount = 2;
+    strcpy(prodns[2].tails[0].tail, "(S)");
+    strcpy(prodns[2].tails[1].tail, "d");
 
 
     printf("Enter the input: ");
