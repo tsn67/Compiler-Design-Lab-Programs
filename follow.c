@@ -130,10 +130,10 @@ void calc_firsts() {
 int add_helper(char* t, char* s) {
     int v = 0;
     while (*s != '\0') {
-        if (!contains(t, *s)) {
+        if (!contains(t, *s) && *s != '#') {
             v = 1;
+            add_to_str(t, *s);
         }
-        add_to_str(t, *s);
         s++;
     }
     return v;
